@@ -1,0 +1,91 @@
+[13:30:11]  : -------------------- World Server ---------------------
+[13:30:12] I DBManager : Registered table: Characters_bag_pools, Auction, BannedNameRecord, Bug_report, CharacterDeletionRecord, Character, CharacterSavedBuff, Character_value, CharacterClientData, Guild_Alliance_info, Guild_event, GuildVaultItem, CharacterItem, Character_mail, Character_quest, Character_social, Character_tok_kills, Character_tok, Character_ability, Characters_influence, Guild_info, Guild_log, Guild_member, Guild_rank, ScenarioDurationRecord, GMCommandLog
+[13:30:12] E Table creature_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[13:30:12] E Table gameobject_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[13:30:12] E Table pquest_objectives column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[13:30:12] I DBManager : Registered table: AbilityKnockbackInfo, AbilityModifierEffect, AbilityModifierCheck, DBAbilityDamageInfo, DBAbilityCommandInfo, DBBuffInfo, DBBuffCommandInfo, DBAbilityInfo, BattlefrontResourceSpawn, BattlefrontStatus, Battlefront_Guard, Battlefront_Objective, RvRObjectInfo, Keep_Creature, Keep_Door, Keep_Info, Chapter_Info, Chapter_Reward, CharacterInfo, CharacterInfo_item, CharacterInfoRenown, PetStatOverride, PetMasteryModifiers, CharacterInfo_stats, Tok_Bestary, Creature_abilities, Creature_item, Creature_proto, Creature_spawn, Creature_stats, Creature_text, Vendor_items, GameObject_loot, GameObject_proto, GameObject_spawn, Instance_Attribute, Instance_Encounter, Instance_Event, Instance_Event_Command, Instance_Lockouts, Instance_Info, Instance_Object, Instance_Script, Instance_Boss_Spawn, Instance_Spawn, Instance_Spawn_State, Instance_Spawn_State_Ability, Dye_Info, Item_Info, Random_name, Item_Set, Mount_Info, Guild_Xp, Renown_Info, Tok_Info, Xp_Info, Loot_Group, Loot_Group_Butcher, Loot_Group_Item, RallyPoint, Zone_Area, Zone_jump, Zone_Respawn, Zone_Taxi, PQuest_Loot_Crafting, PQuest_Loot, PQuest_Info, PQuest_Objective, PQuest_Spawn, Quest, Quest_Creature_Finisher, Quest_Creature_Starter, Quest_Map, Quest_Objectives, Zone_Info, Scenario_Object, Scenario_Info, TimedAnnounce, Waypoint, World_Settings, BattlefrontObject
+[13:30:12] Creating Upper Tier Battlefront Manager : T2 Emp/Chaos
+[13:30:12] Creating Lower Tier Battlefront Manager : T1 Emp/Chaos
+[13:30:12] StartingPairing:  : 3
+[13:30:12] N ClientMgr : [1320370120]	| LauncherServer| 127.0.0.1:6001 | Connected
+[13:30:12] N ClientMgr : [859162738]	| LobbyServer| 127.0.0.1:6002 | Connected
+[13:30:12] S RpcClient : Connected to : 127.0.0.1:6800, Listen on : 127.0.0.1:6003
+[13:30:12] N ClientMgr : Server connected !
+[13:30:12] S WorldMgr : Loaded 0 Battlefront Guards
+[13:30:12] S WorldMgr : Loaded 0 resource points.
+[13:30:12] S WorldMgr : Loaded 0 Battlefront Objectives
+[13:30:12] S WorldMgr : Loaded 0 battlefront objects.
+[13:30:12] S WorldMgr : Loaded 0 Keep Creatures
+[13:30:12] S WorldMgr : Loaded 0 Keep Doors
+[13:30:12] S WorldMgr : Loaded 0 Keep Infos
+[13:30:12] S LoadRvRObjects : Loaded 15 RvR Objects
+[13:30:12] S LoadChapter_Infos : Loaded 218 Chapter_Infos
+[13:30:12] S LoadChapter_Infos : Loaded 11522 Chapter_Rewards
+[13:30:14] N Exec time 1313 ms : SELECT `Entry`, `Name`, `Description`, `Type`, `Race`, `ModelId`, `SlotId`, `Rarity`, `Career`, `Skills`, `Bind`, `Armor`, `SpellId`, `ItemSet`, `Dps`, `Speed`, `MinRank`, `MinRenown`, `ObjectLevel`, `UniqueEquiped`, `StartQuest`, `Stats`, `Effects`, `Crafts`, `SellPrice`, `SellRequiredItems`, `TalismanSlots`, `MaxStack`, `Unk27`, `ScriptName`, `TwoHanded`, `Craftresult`, `DyeAble`, `Salvageable`, `BaseColor1`, `BaseColor2`, `TokUnlock`, `TokUnlock2` FROM `item_infos` WHERE Name != ''
+[13:30:14] S LoadItem_Info : Loaded 86107 Item_Info
+[13:30:14] S LoadItem_Set : Loaded 892 Item_Set
+[13:30:14] S LoadCreatureProto : Loaded 12370 Creature_Protos
+[13:30:15] S LoadCreatureSpawns : Loaded 82936 Creature_Spawns
+[13:30:15] S WorldMgr : Loaded 342 Creature Texts
+[13:30:15] S LoadCreatureItems : Loaded 57390 Creature_Items
+[13:30:15] S LoadCreatureStats : Loaded 0 Creature_stats
+[13:30:15] S WorldMgr : Successfully Loaded 0 loot groups.
+[13:30:15] S WorldMgr : Loaded 2639 GameObject_Protos
+[13:30:15] S WorldMgr : Loaded 22320 GameObject_Spawns
+[13:30:15] S LoadZone_Info : Loaded 157 Zone_Info
+[13:30:15] S LoadZone_Jump : Loaded 151 Zone_Jump
+[13:30:15] S LoadZone_Info : Loaded 320 Zone_Area
+[13:30:15] S LoadZone_Info : Loaded 254 Zone_Respawn
+[13:30:15] S LoadZone_Info : Loaded 119 Zone_Taxis
+[13:30:15] E LoadRegionSpawns : [54] Invalid Spawns
+[13:30:15] S WorldMgr : Loaded 30 Dyes
+[13:30:15] S LoadGuild_Info : Loaded 40 Guild_Xps
+[13:30:15] S WorldMgr : Loaded 494 Public Quests Info
+[13:30:15] S WorldMgr : Loaded 1653 Public Quest Objectives
+[13:30:15] S WorldMgr : Loaded 6005 Public Quest Spawns
+[13:30:15] S PQLoot : Loaded 707 Items
+[13:30:15] S PQLootCrafting : Loaded 707 Items
+[13:30:15] S PQLootCrafting : Loaded 707 Items
+[13:30:15] S LoadQuests : Loaded 5269 Quests
+[13:30:16] S LoadQuestsObjectives : Loaded 6341 Quests Objectives
+[13:30:16] S LoadQuestsMaps : Loaded 3392 Quests Maps
+[13:30:16] S RallyPoint : Loaded 190 RallyPoints
+[13:30:16] S Scenario_Info : Loaded 13 Scenario_Info
+[13:30:16] S LoadTok_Infos : Loaded 11999 Tok_Infos
+[13:30:16] S LoadTok_Bestary : Loaded 136 Tok_Bestary
+[13:30:16] S LoadNpcWaypoints : Loaded 0 Waypoints
+[13:30:16] S LoadXp_Info : Loaded 39 Xp_Infos
+[13:30:16] S LoadRenown_Info : Loaded 101 Renown_Info
+[13:30:16] S CharacterMgr : Loaded 24 CharacterInfo
+[13:30:16] S CharacterMgr : Loaded 24 CharacterInfo_Item
+[13:30:16] S CharacterMgr : Loaded 7 CharacterInfo_renown
+[13:30:16] S CharacterMgr : Loaded 14398 CharacterInfo_Stats
+[13:30:16] S CharacterMgr : Loaded 0 PetMosteryModifiers
+[13:30:16] S LoadCharacters : 0 characters loaded.
+[13:30:16] S LoadAuctions : Loaded 0 Auctions
+[13:30:16] I LoadGuildAllianes : Loading guild Allianes...
+[13:30:16] S LoadGuildAlliance : 0 Alliances loaded.
+[13:30:16] I LoadGuilds : Loading guilds...
+[13:30:16] I LoadItems : Loading items...
+[13:30:16] S LoadItems : 0 inventory items loaded.
+[13:30:16] S LoadMails : Loaded 0 items of mail.
+[13:30:16] S CharacterMgr : Loaded 0 Support Tickets
+[13:30:16] I AbilityMgr : Loading New Ability Info...
+[13:30:16] S AbilityMgr : Finished loading 0 abilities and 0 buffs!
+[13:30:16] S WorldMgr : Loaded 0Instance_Spawn
+[13:30:16] S WorldMgr : Loaded 0Instance_Boss_Spawn
+[13:30:16] S WorldMgr : Loaded 0Instance_Info
+[13:30:16] S WorldMgr : Loaded 0Instance_Lockouts
+[13:30:16] S WorldMgr : Loaded 0Instance_Encounters
+[13:30:16] S LoadRelation : Loading Relations
+[13:30:16] S LoadChapters : Loading Zone from Chapters
+[13:30:16] E LoadChapters : [8] Invalid Chapter(s)
+[13:30:16] S LoadCreatureQuests : Loaded 1831 Quests Creature Starter
+[13:30:16] S LoadCreatureQuests : Loaded 1733 Quests Creature Finisher
+[13:30:16] I WorldMgr : Creating Quest(24069) Item : 5129588,  Sigmarite Temple Guards| Adding Loot to : Sigmarite
+[13:30:16] I WorldMgr : Creating Quest(41357) Item : 13432378,  Guard's Arms| Adding Loot to : Halberdier
+[13:30:16] I WorldMgr : Creating Quest(41357) Item : 4012990,  Lector's Heart| Adding Loot to : Halberdier
+[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\PublicQuests\RavenHostVanguard.cs
+[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\GrimmenhagenBurning.cs
+[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\HeartsAndMinds.cs
+[13:30:16] I Scripting : C# Script Compiler Loaded 3 scripts.
