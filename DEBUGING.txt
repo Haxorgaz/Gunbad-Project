@@ -1,91 +1,378 @@
-[13:30:11]  : -------------------- World Server ---------------------
-[13:30:12] I DBManager : Registered table: Characters_bag_pools, Auction, BannedNameRecord, Bug_report, CharacterDeletionRecord, Character, CharacterSavedBuff, Character_value, CharacterClientData, Guild_Alliance_info, Guild_event, GuildVaultItem, CharacterItem, Character_mail, Character_quest, Character_social, Character_tok_kills, Character_tok, Character_ability, Characters_influence, Guild_info, Guild_log, Guild_member, Guild_rank, ScenarioDurationRecord, GMCommandLog
-[13:30:12] E Table creature_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
-[13:30:12] E Table gameobject_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
-[13:30:12] E Table pquest_objectives column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
-[13:30:12] I DBManager : Registered table: AbilityKnockbackInfo, AbilityModifierEffect, AbilityModifierCheck, DBAbilityDamageInfo, DBAbilityCommandInfo, DBBuffInfo, DBBuffCommandInfo, DBAbilityInfo, BattlefrontResourceSpawn, BattlefrontStatus, Battlefront_Guard, Battlefront_Objective, RvRObjectInfo, Keep_Creature, Keep_Door, Keep_Info, Chapter_Info, Chapter_Reward, CharacterInfo, CharacterInfo_item, CharacterInfoRenown, PetStatOverride, PetMasteryModifiers, CharacterInfo_stats, Tok_Bestary, Creature_abilities, Creature_item, Creature_proto, Creature_spawn, Creature_stats, Creature_text, Vendor_items, GameObject_loot, GameObject_proto, GameObject_spawn, Instance_Attribute, Instance_Encounter, Instance_Event, Instance_Event_Command, Instance_Lockouts, Instance_Info, Instance_Object, Instance_Script, Instance_Boss_Spawn, Instance_Spawn, Instance_Spawn_State, Instance_Spawn_State_Ability, Dye_Info, Item_Info, Random_name, Item_Set, Mount_Info, Guild_Xp, Renown_Info, Tok_Info, Xp_Info, Loot_Group, Loot_Group_Butcher, Loot_Group_Item, RallyPoint, Zone_Area, Zone_jump, Zone_Respawn, Zone_Taxi, PQuest_Loot_Crafting, PQuest_Loot, PQuest_Info, PQuest_Objective, PQuest_Spawn, Quest, Quest_Creature_Finisher, Quest_Creature_Starter, Quest_Map, Quest_Objectives, Zone_Info, Scenario_Object, Scenario_Info, TimedAnnounce, Waypoint, World_Settings, BattlefrontObject
-[13:30:12] Creating Upper Tier Battlefront Manager : T2 Emp/Chaos
-[13:30:12] Creating Lower Tier Battlefront Manager : T1 Emp/Chaos
-[13:30:12] StartingPairing:  : 3
-[13:30:12] N ClientMgr : [1320370120]	| LauncherServer| 127.0.0.1:6001 | Connected
-[13:30:12] N ClientMgr : [859162738]	| LobbyServer| 127.0.0.1:6002 | Connected
-[13:30:12] S RpcClient : Connected to : 127.0.0.1:6800, Listen on : 127.0.0.1:6003
-[13:30:12] N ClientMgr : Server connected !
-[13:30:12] S WorldMgr : Loaded 0 Battlefront Guards
-[13:30:12] S WorldMgr : Loaded 0 resource points.
-[13:30:12] S WorldMgr : Loaded 0 Battlefront Objectives
-[13:30:12] S WorldMgr : Loaded 0 battlefront objects.
-[13:30:12] S WorldMgr : Loaded 0 Keep Creatures
-[13:30:12] S WorldMgr : Loaded 0 Keep Doors
-[13:30:12] S WorldMgr : Loaded 0 Keep Infos
-[13:30:12] S LoadRvRObjects : Loaded 15 RvR Objects
-[13:30:12] S LoadChapter_Infos : Loaded 218 Chapter_Infos
-[13:30:12] S LoadChapter_Infos : Loaded 11522 Chapter_Rewards
-[13:30:14] N Exec time 1313 ms : SELECT `Entry`, `Name`, `Description`, `Type`, `Race`, `ModelId`, `SlotId`, `Rarity`, `Career`, `Skills`, `Bind`, `Armor`, `SpellId`, `ItemSet`, `Dps`, `Speed`, `MinRank`, `MinRenown`, `ObjectLevel`, `UniqueEquiped`, `StartQuest`, `Stats`, `Effects`, `Crafts`, `SellPrice`, `SellRequiredItems`, `TalismanSlots`, `MaxStack`, `Unk27`, `ScriptName`, `TwoHanded`, `Craftresult`, `DyeAble`, `Salvageable`, `BaseColor1`, `BaseColor2`, `TokUnlock`, `TokUnlock2` FROM `item_infos` WHERE Name != ''
-[13:30:14] S LoadItem_Info : Loaded 86107 Item_Info
-[13:30:14] S LoadItem_Set : Loaded 892 Item_Set
-[13:30:14] S LoadCreatureProto : Loaded 12370 Creature_Protos
-[13:30:15] S LoadCreatureSpawns : Loaded 82936 Creature_Spawns
-[13:30:15] S WorldMgr : Loaded 342 Creature Texts
-[13:30:15] S LoadCreatureItems : Loaded 57390 Creature_Items
-[13:30:15] S LoadCreatureStats : Loaded 0 Creature_stats
-[13:30:15] S WorldMgr : Successfully Loaded 0 loot groups.
-[13:30:15] S WorldMgr : Loaded 2639 GameObject_Protos
-[13:30:15] S WorldMgr : Loaded 22320 GameObject_Spawns
-[13:30:15] S LoadZone_Info : Loaded 157 Zone_Info
-[13:30:15] S LoadZone_Jump : Loaded 151 Zone_Jump
-[13:30:15] S LoadZone_Info : Loaded 320 Zone_Area
-[13:30:15] S LoadZone_Info : Loaded 254 Zone_Respawn
-[13:30:15] S LoadZone_Info : Loaded 119 Zone_Taxis
-[13:30:15] E LoadRegionSpawns : [54] Invalid Spawns
-[13:30:15] S WorldMgr : Loaded 30 Dyes
-[13:30:15] S LoadGuild_Info : Loaded 40 Guild_Xps
-[13:30:15] S WorldMgr : Loaded 494 Public Quests Info
-[13:30:15] S WorldMgr : Loaded 1653 Public Quest Objectives
-[13:30:15] S WorldMgr : Loaded 6005 Public Quest Spawns
-[13:30:15] S PQLoot : Loaded 707 Items
-[13:30:15] S PQLootCrafting : Loaded 707 Items
-[13:30:15] S PQLootCrafting : Loaded 707 Items
-[13:30:15] S LoadQuests : Loaded 5269 Quests
-[13:30:16] S LoadQuestsObjectives : Loaded 6341 Quests Objectives
-[13:30:16] S LoadQuestsMaps : Loaded 3392 Quests Maps
-[13:30:16] S RallyPoint : Loaded 190 RallyPoints
-[13:30:16] S Scenario_Info : Loaded 13 Scenario_Info
-[13:30:16] S LoadTok_Infos : Loaded 11999 Tok_Infos
-[13:30:16] S LoadTok_Bestary : Loaded 136 Tok_Bestary
-[13:30:16] S LoadNpcWaypoints : Loaded 0 Waypoints
-[13:30:16] S LoadXp_Info : Loaded 39 Xp_Infos
-[13:30:16] S LoadRenown_Info : Loaded 101 Renown_Info
-[13:30:16] S CharacterMgr : Loaded 24 CharacterInfo
-[13:30:16] S CharacterMgr : Loaded 24 CharacterInfo_Item
-[13:30:16] S CharacterMgr : Loaded 7 CharacterInfo_renown
-[13:30:16] S CharacterMgr : Loaded 14398 CharacterInfo_Stats
-[13:30:16] S CharacterMgr : Loaded 0 PetMosteryModifiers
-[13:30:16] S LoadCharacters : 0 characters loaded.
-[13:30:16] S LoadAuctions : Loaded 0 Auctions
-[13:30:16] I LoadGuildAllianes : Loading guild Allianes...
-[13:30:16] S LoadGuildAlliance : 0 Alliances loaded.
-[13:30:16] I LoadGuilds : Loading guilds...
-[13:30:16] I LoadItems : Loading items...
-[13:30:16] S LoadItems : 0 inventory items loaded.
-[13:30:16] S LoadMails : Loaded 0 items of mail.
-[13:30:16] S CharacterMgr : Loaded 0 Support Tickets
-[13:30:16] I AbilityMgr : Loading New Ability Info...
-[13:30:16] S AbilityMgr : Finished loading 0 abilities and 0 buffs!
-[13:30:16] S WorldMgr : Loaded 0Instance_Spawn
-[13:30:16] S WorldMgr : Loaded 0Instance_Boss_Spawn
-[13:30:16] S WorldMgr : Loaded 0Instance_Info
-[13:30:16] S WorldMgr : Loaded 0Instance_Lockouts
-[13:30:16] S WorldMgr : Loaded 0Instance_Encounters
-[13:30:16] S LoadRelation : Loading Relations
-[13:30:16] S LoadChapters : Loading Zone from Chapters
-[13:30:16] E LoadChapters : [8] Invalid Chapter(s)
-[13:30:16] S LoadCreatureQuests : Loaded 1831 Quests Creature Starter
-[13:30:16] S LoadCreatureQuests : Loaded 1733 Quests Creature Finisher
-[13:30:16] I WorldMgr : Creating Quest(24069) Item : 5129588,  Sigmarite Temple Guards| Adding Loot to : Sigmarite
-[13:30:16] I WorldMgr : Creating Quest(41357) Item : 13432378,  Guard's Arms| Adding Loot to : Halberdier
-[13:30:16] I WorldMgr : Creating Quest(41357) Item : 4012990,  Lector's Heart| Adding Loot to : Halberdier
-[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\PublicQuests\RavenHostVanguard.cs
-[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\GrimmenhagenBurning.cs
-[13:30:16] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\HeartsAndMinds.cs
-[13:30:16] I Scripting : C# Script Compiler Loaded 3 scripts.
+[15:21:40]  : -------------------- World Server ---------------------
+[15:21:41] I DBManager : Registered table: Characters_bag_pools, Auction, BannedNameRecord, Bug_report, CharacterDeletionRecord, Character, CharacterSavedBuff, Character_value, CharacterClientData, Guild_Alliance_info, Guild_event, GuildVaultItem, CharacterItem, Character_mail, Character_quest, Character_social, Character_tok_kills, Character_tok, Character_ability, Characters_influence, Guild_info, Guild_log, Guild_member, Guild_rank, ScenarioDurationRecord, GMCommandLog
+[15:21:41] E Table creature_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[15:21:41] E Table vendor_items column vendorid : Type mismatch (TINYINT UNSIGNED in DB - SMALLINT UNSIGNED in emulator)
+[15:21:41] E Table gameobject_spawns column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[15:21:41] E Table zone_jumps column instanceid : Type mismatch (INT UNSIGNED in DB - SMALLINT UNSIGNED in emulator)
+[15:21:41] E Table pquest_objectives column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[15:21:41] E Table waypoints column guid : Type mismatch (INT UNSIGNED in DB - INT in emulator)
+[15:21:41] I DBManager : Registered table: AbilityKnockbackInfo, AbilityModifierEffect, AbilityModifierCheck, DBAbilityDamageInfo, DBAbilityCommandInfo, DBBuffInfo, DBBuffCommandInfo, DBAbilityInfo, BattlefrontResourceSpawn, BattlefrontStatus, Battlefront_Guard, Battlefront_Objective, RvRObjectInfo, Keep_Creature, Keep_Door, Keep_Info, Chapter_Info, Chapter_Reward, CharacterInfo, CharacterInfo_item, CharacterInfoRenown, PetStatOverride, PetMasteryModifiers, CharacterInfo_stats, Tok_Bestary, Creature_abilities, Creature_item, Creature_proto, Creature_spawn, Creature_stats, Creature_text, Vendor_items, GameObject_loot, GameObject_proto, GameObject_spawn, Instance_Attribute, Instance_Encounter, Instance_Event, Instance_Event_Command, Instance_Lockouts, Instance_Info, Instance_Object, Instance_Script, Instance_Boss_Spawn, Instance_Spawn, Instance_Spawn_State, Instance_Spawn_State_Ability, Dye_Info, Item_Info, Random_name, Item_Set, Mount_Info, Guild_Xp, Renown_Info, Tok_Info, Xp_Info, Loot_Group, Loot_Group_Butcher, Loot_Group_Item, RallyPoint, Zone_Area, Zone_jump, Zone_Respawn, Zone_Taxi, PQuest_Loot_Crafting, PQuest_Loot, PQuest_Info, PQuest_Objective, PQuest_Spawn, Quest, Quest_Creature_Finisher, Quest_Creature_Starter, Quest_Map, Quest_Objectives, Zone_Info, Scenario_Object, Scenario_Info, TimedAnnounce, Waypoint, World_Settings, BattlefrontObject
+[15:21:41] Creating Upper Tier Battlefront Manager : T2 Emp/Chaos
+[15:21:41] Creating Lower Tier Battlefront Manager : T1 Emp/Chaos
+[15:21:41] StartingPairing:  : 1
+[15:21:41] N ClientMgr : [-646249522]	| LauncherServer| 127.0.0.1:6001 | Connected
+[15:21:41] N ClientMgr : [-2109930834]	| LobbyServer| 127.0.0.1:6002 | Connected
+[15:21:41] S RpcClient : Connected to : 127.0.0.1:6800, Listen on : 127.0.0.1:6003
+[15:21:41] N ClientMgr : Server connected !
+[15:21:41] S WorldMgr : Loaded 335 Battlefront Guards
+[15:21:41] S WorldMgr : Loaded 0 resource points.
+[15:21:41] S WorldMgr : Loaded 71 Battlefront Objectives
+[15:21:41] S WorldMgr : Loaded 0 battlefront objects.
+[15:21:41] S WorldMgr : Loaded 987 Keep Creatures
+[15:21:41] S WorldMgr : Loaded 135 Keep Doors
+[15:21:41] S WorldMgr : Loaded 30 Keep Infos
+[15:21:41] S LoadRvRObjects : Loaded 15 RvR Objects
+[15:21:41] S LoadChapter_Infos : Loaded 218 Chapter_Infos
+[15:21:41] S LoadChapter_Infos : Loaded 11522 Chapter_Rewards
+[15:21:43] N Exec time 1313 ms : SELECT `Entry`, `Name`, `Description`, `Type`, `Race`, `ModelId`, `SlotId`, `Rarity`, `Career`, `Skills`, `Bind`, `Armor`, `SpellId`, `ItemSet`, `Dps`, `Speed`, `MinRank`, `MinRenown`, `ObjectLevel`, `UniqueEquiped`, `StartQuest`, `Stats`, `Effects`, `Crafts`, `SellPrice`, `SellRequiredItems`, `TalismanSlots`, `MaxStack`, `Unk27`, `ScriptName`, `TwoHanded`, `Craftresult`, `DyeAble`, `Salvageable`, `BaseColor1`, `BaseColor2`, `TokUnlock`, `TokUnlock2` FROM `item_infos` WHERE Name != ''
+[15:21:43] S LoadItem_Info : Loaded 86107 Item_Info
+[15:21:43] S LoadItem_Set : Loaded 892 Item_Set
+[15:21:43] S LoadCreatureProto : Loaded 12370 Creature_Protos
+[15:21:44] S LoadCreatureSpawns : Loaded 82936 Creature_Spawns
+[15:21:44] S WorldMgr : Loaded 342 Creature Texts
+[15:21:44] S LoadCreatureItems : Loaded 57390 Creature_Items
+[15:21:44] S LoadCreatureStats : Loaded 0 Creature_stats
+[15:21:44] S WorldMgr : Successfully Loaded 334 loot groups.
+[15:21:44] S WorldMgr : Loaded 2639 GameObject_Protos
+[15:21:44] S WorldMgr : Loaded 22320 GameObject_Spawns
+[15:21:44] S LoadZone_Info : Loaded 157 Zone_Info
+[15:21:44] S LoadZone_Jump : Loaded 153 Zone_Jump
+[15:21:44] S LoadZone_Info : Loaded 320 Zone_Area
+[15:21:44] S LoadZone_Info : Loaded 254 Zone_Respawn
+[15:21:44] S LoadZone_Info : Loaded 119 Zone_Taxis
+[15:21:44] E LoadRegionSpawns : [54] Invalid Spawns
+[15:21:44] S WorldMgr : Loaded 30 Dyes
+[15:21:44] S LoadGuild_Info : Loaded 40 Guild_Xps
+[15:21:44] S WorldMgr : Loaded 494 Public Quests Info
+[15:21:44] S WorldMgr : Loaded 1653 Public Quest Objectives
+[15:21:44] S WorldMgr : Loaded 6005 Public Quest Spawns
+[15:21:44] S PQLoot : Loaded 707 Items
+[15:21:44] S PQLootCrafting : Loaded 707 Items
+[15:21:44] S PQLootCrafting : Loaded 707 Items
+[15:21:45] S LoadQuests : Loaded 5269 Quests
+[15:21:45] S LoadQuestsObjectives : Loaded 6341 Quests Objectives
+[15:21:45] S LoadQuestsMaps : Loaded 3392 Quests Maps
+[15:21:45] S RallyPoint : Loaded 190 RallyPoints
+[15:21:45] S Scenario_Info : Loaded 13 Scenario_Info
+[15:21:45] S LoadTok_Infos : Loaded 11999 Tok_Infos
+[15:21:45] S LoadTok_Bestary : Loaded 136 Tok_Bestary
+[15:21:45] S LoadNpcWaypoints : Loaded 0 Waypoints
+[15:21:45] S LoadXp_Info : Loaded 39 Xp_Infos
+[15:21:45] S LoadRenown_Info : Loaded 101 Renown_Info
+[15:21:45] S CharacterMgr : Loaded 24 CharacterInfo
+[15:21:45] S CharacterMgr : Loaded 24 CharacterInfo_Item
+[15:21:45] S CharacterMgr : Loaded 7 CharacterInfo_renown
+[15:21:45] S CharacterMgr : Loaded 14398 CharacterInfo_Stats
+[15:21:45] S CharacterMgr : Loaded 0 PetMosteryModifiers
+[15:21:45] S LoadCharacters : 2 characters loaded.
+[15:21:45] S LoadAuctions : Loaded 0 Auctions
+[15:21:45] I LoadGuildAllianes : Loading guild Allianes...
+[15:21:45] S LoadGuildAlliance : 0 Alliances loaded.
+[15:21:45] I LoadGuilds : Loading guilds...
+[15:21:45] I LoadItems : Loading items...
+[15:21:45] S LoadItems : 14 inventory items loaded.
+[15:21:45] S LoadMails : Loaded 0 items of mail.
+[15:21:45] S CharacterMgr : Loaded 0 Support Tickets
+[15:21:45] I AbilityMgr : Loading New Ability Info...
+[15:21:45] S AbilityMgr : Finished loading 1940 abilities and 1858 buffs!
+[15:21:45] S WorldMgr : Loaded 0Instance_Spawn
+[15:21:45] S WorldMgr : Loaded 0Instance_Boss_Spawn
+[15:21:45] S WorldMgr : Loaded 0Instance_Info
+[15:21:45] S WorldMgr : Loaded 0Instance_Lockouts
+[15:21:45] S WorldMgr : Loaded 0Instance_Encounters
+[15:21:45] S LoadRelation : Loading Relations
+[15:21:45] S LoadChapters : Loading Zone from Chapters
+[15:21:45] E LoadChapters : [8] Invalid Chapter(s)
+[15:21:45] I Skipped PQs : Passwatch Castle, Stoneclaw Castle, Stonetroll Keep, Mandred's Hold, Wilhelm's Fist, Morr's Repose, Southern Garrison, Garrison of Skulls, Zimmeron's Hold, Charon's Citadel, Cascades of Thunder, Spite's Reach, Dok Karaz, Fangbreaka Swamp, Thickmuck Pit, Gnol Baraz, Bloodfist Rock, Karak Karag, Karaz Drengi, Kazad Dammaz, Ironskin Skar, Badmoon Hole, Pillars of Remembrance, Arbor of Light, Covenant of Flame, Drakebreaker's Scourge, Hatred's Way, Wrath's Resolve, The Well of Qhaysh, Ghrond's Sacristy
+[15:21:45] S LoadCreatureQuests : Loaded 1831 Quests Creature Starter
+[15:21:45] S LoadCreatureQuests : Loaded 1733 Quests Creature Finisher
+[15:21:45] I WorldMgr : Creating Quest(24069) Item : 5129588,  Sigmarite Temple Guards| Adding Loot to : Sigmarite
+[15:21:45] I WorldMgr : Creating Quest(41357) Item : 13432378,  Guard's Arms| Adding Loot to : Halberdier
+[15:21:45] I WorldMgr : Creating Quest(41357) Item : 4012990,  Lector's Heart| Adding Loot to : Halberdier
+[15:21:45] I Scripting : Compiling :D:\WAR GS\Release\Scripts\PublicQuests\RavenHostVanguard.cs
+[15:21:45] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\GrimmenhagenBurning.cs
+[15:21:45] I Scripting : Compiling :D:\WAR GS\Release\Scripts\Quests\HeartsAndMinds.cs
+[15:21:46] I Scripting : C# Script Compiler Loaded 3 scripts.
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :33401
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :41620
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :41619
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000883
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000884
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :15102
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000945
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000941
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :2000579
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :2000602
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36608
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36597
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000904
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36612
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36598
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000903
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38623
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38633
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38234
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000890
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38829
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000864
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000865
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000866
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36549
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000900
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :2000576
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :37964
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000893
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :37967
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000851
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000899
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000902
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :36615
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000881
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000882
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38904
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38909
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38907
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :38720
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :2000569
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :42207
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000876
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :42211
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :100523
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :100524
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :2000561
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000810
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000811
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000812
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000813
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000814
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000815
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000816
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000817
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000818
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000819
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000820
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000821
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000822
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000823
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000824
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000825
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000826
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000827
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000828
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000829
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000830
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000831
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000832
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000833
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000834
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000835
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000836
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000910
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :99742
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :86449
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :40862
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :44438
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :42374
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :514
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000946
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000840
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000909
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000947
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000491
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000497
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000492
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000493
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000494
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000498
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000510
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000783
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000837
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000492
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000838
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000839
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000840
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :2000841
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1000069
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :46
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :135
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :98324
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :32
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :31
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1990
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :1989
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering GameObject Script :99999
+[15:21:46] S Scripting : Registering Script :mailboxscript
+[15:21:46] S Scripting : Registering Script :careerpackagessender
+[15:21:46] S Packages : Loaded 6032 packages
+[15:21:46] S Scripting : Registering Script :potionscript
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :46
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :135
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :98324
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :32
+[15:21:46] S Scripting : Registering Script :
+[15:21:46] S Scripts : Registering Creature Script :31
+[15:21:46] S Scripting : Loaded  : 3 Scripts
+[15:21:46] I Regions : Preloading pairing regions...
+[15:21:46] E Keep : No resource return points for The Well of Qhaysh
+[15:21:46] E Keep : No resource return points for Karaz Drengi
+[15:21:46] E Keep : No resource return points for Mandred's Hold
+[15:21:46] E Keep : No resource return points for Cascades of Thunder
+[15:21:46] E Keep : No resource return points for Dok Karaz
+[15:21:46] E Keep : No resource return points for Gnol Baraz
+[15:21:46] E Keep : No resource return points for Stonetroll Keep
+[15:21:46] E Keep : No resource return points for Spite's Reach
+[15:21:46] E Keep : No resource return points for Ghrond's Sacristy
+[15:21:46] E Keep : No resource return points for Kazad Dammaz
+[15:21:46] E Keep : No resource return points for Fangbreaka Swamp
+[15:21:46] E Keep : No resource return points for Passwatch Castle
+[15:21:46] E Keep : No resource return points for Thickmuck Pit
+[15:21:46] E Keep : No resource return points for Bloodfist Rock
+[15:21:46] E Keep : No resource return points for Stoneclaw Castle
+[15:21:46] E Keep : No resource return points for Karak Karag
+[15:21:46] E Keep : No resource return points for Ironskin Skar
+[15:21:46] E Keep : No resource return points for Badmoon Hole
+[15:21:46] S Regions : Preloaded pairing regions.
+[15:21:46] E Keep : No resource return points for Arbor of Light
+[15:21:46] E Keep : No resource return points for Pillars of Remembrance
+[15:21:46] E Keep : No resource return points for Wilhelm's Fist
+[15:21:46] E Keep : No resource return points for Covenant of Flame
+[15:21:46] E Keep : No resource return points for Morr's Repose
+[15:21:46] E Keep : No resource return points for Southern Garrison
+[15:21:46] E Keep : No resource return points for Garrison of Skulls
+[15:21:46] E Keep : No resource return points for Drakebreaker's Scourge
+[15:21:46] E Keep : No resource return points for Hatred's Way
+[15:21:46] E Keep : No resource return points for Zimmeron's Hold
+[15:21:46] E Keep : No resource return points for Wrath's Resolve
+[15:21:46] E Keep : No resource return points for Charon's Citadel
+[15:21:46] S LoaderMgr : Loading complete in : 4578ms
+[15:21:46] S LoaderMgr : Collected garbage
+[15:21:46] I TCPManager : Starting...10622
+[15:21:46] S HeightMap : [207] Loading Height Map..
+[15:21:46] S HeightMap : [208] Loading Height Map..
+[15:21:46] S HeightMap : [107] Loading Height Map..
+[15:21:46] S HeightMap : [108] Loading Height Map..
+[15:21:46] S HeightMap : [8] Loading Height Map..
+[15:21:46] S HeightMap : [7] Loading Height Map..
+[15:21:46] I TCPManager : Loading the Packet Handler
+[15:21:46] S HeightMap : [209] Loading Height Map..
+[15:21:46] S HeightMap : [109] Loading Height Map..
+[15:21:46] S HeightMap : [9] Loading Height Map..
+[15:21:46] S HeightMap : [205] Loading Height Map..
+[15:21:46] S HeightMap : [105] Loading Height Map..
+[15:21:46] S HeightMap : [5] Loading Height Map..
+[15:21:46] I TCPManager : Loading Crypt Handler
+[15:21:46] S TCPManager : Server listening to : 0.0.0.0:10622
+[15:21:46] I ConsoleMgr : Commands list : 
+[15:21:46] I ConsoleMgr : .reloadscripts : Reload Scripts
