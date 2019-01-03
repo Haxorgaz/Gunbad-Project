@@ -1,0 +1,42 @@
+[11:55:13]  : -------------------- Account Cacher  -------------------
+[11:55:13] I DataConnection : Table war_accounts.accounts is missing and will be created...
+[11:55:13] E DataConnection : Column index out of range for accounts, AccountId
+[11:55:13] E DataConnection : Column index out of range for accounts, GmLevel
+[11:55:13] E DataConnection : Column index out of range for accounts, Banned
+[11:55:13] E DataConnection : Column index out of range for accounts, AdviceBlockEnd
+[11:55:13] E DataConnection : Column index out of range for accounts, StealthMuteEnd
+[11:55:13] E DataConnection : Column index out of range for accounts, CoreLevel
+[11:55:13] E DataConnection : Column index out of range for accounts, LastLogged
+[11:55:13] E DataConnection : Column index out of range for accounts, LastNameChanged
+[11:55:13] E DataConnection : Column index out of range for accounts, InvalidPasswordCount
+[11:55:13] E DataConnection : Column index out of range for accounts, noSurname
+[11:55:13] I DataConnection : Table war_accounts.account_sanction_logs is missing and will be created...
+[11:55:13] E DataConnection : Column index out of range for account_sanction_logs, AccountId
+[11:55:13] E DataConnection : Column index out of range for account_sanction_logs, IssuerGmLevel
+[11:55:13] E DataConnection : Column index out of range for account_sanction_logs, ActionTime
+[11:55:13] I DataConnection : Table war_accounts.account_value is missing and will be created...
+[11:55:13] E DataConnection : Column index out of range for account_value, Id
+[11:55:13] E DataConnection : Column index out of range for account_value, AccountId
+[11:55:13] E DataConnection : Column index out of range for account_value, ModifyDate
+[11:55:13] I DataConnection : Table war_accounts.ip_bans is missing and will be created...
+[11:55:13] E DataConnection : Column index out of range for ip_bans, Expire
+[11:55:13] I DataConnection : Table war_accounts.realms is missing and will be created...
+[11:55:13] E DataConnection : Column index out of range for realms, RealmId
+[11:55:13] E DataConnection : Column index out of range for realms, Port
+[11:55:13] E DataConnection : Column index out of range for realms, Online
+[11:55:13] E DataConnection : Column index out of range for realms, OnlineDate
+[11:55:13] E DataConnection : Column index out of range for realms, OnlinePlayers
+[11:55:13] E DataConnection : Column index out of range for realms, OrderCount
+[11:55:13] E DataConnection : Column index out of range for realms, DestructionCount
+[11:55:13] E DataConnection : Column index out of range for realms, MaxPlayers
+[11:55:13] E DataConnection : Column index out of range for realms, OrderCharacters
+[11:55:13] E DataConnection : Column index out of range for realms, DestruCharacters
+[11:55:13] E DataConnection : Column index out of range for realms, NextRotationTime
+[11:55:13] E DataConnection : Column index out of range for realms, BootTime
+[11:55:13] I DBManager : Registered table: Account, AccountSanctionInfo, Account_value, Ip_ban, Realm
+[11:55:13] S RpcServer : Listening on : 127.0.0.1:6800
+[11:55:13] I ConsoleMgr : Commands list : 
+[11:55:13] I ConsoleMgr : .create : New Account <Username,Password,GMLevel(0-31)>
+[11:55:13] S ServerMgr : [-470357346]	| LauncherServer| 127.0.0.1:6001 | Connected
+[11:55:14] S ServerMgr : [2106628861]	| LobbyServer| 127.0.0.1:6002 | Connected
+[11:55:17] S ServerMgr : [-523396907]	| WorldServer-1| 127.0.0.1:6003 | Connected
